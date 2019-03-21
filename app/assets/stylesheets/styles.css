@@ -40,9 +40,9 @@ body{
 .titre{
     text-transform: uppercase;
     color: white;
-    font-size: 38px;
+    font-size: 26px;
     font-weight: 100;
-    padding: 10px;
+    padding: 5px;
 }
 
 .alert {
@@ -92,6 +92,10 @@ label{
 
 th, td{
     /* text-align: center; */
+}
+
+form {
+    display: contents;
 }
 
 footer {

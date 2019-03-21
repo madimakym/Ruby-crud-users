@@ -14,21 +14,14 @@
 
             <div class="row">
                <div class="col-md-8">
-                    <div class="box box-info">
-                        <div class="box box-solid">
-                            <%= render 'form', user: @user %>
-                        </div>  
-                    </div>
-                </div>
-                <div class="col-md-4">
-                <div class="box box-success">
-                  <div class="box-header">
-                      <br> <img src="<%= @user.image %>" class="img-thumbnail img-center" width="100%"><br>
-                  </div>
-                </div>
+              <div class="box box-info">
+                <div class="box box-solid detail">
+                   <p>Name : <span> <%= @user.name %></span></p>
+                   <p>Address : <span> <%= @user.address %></span></p>
+                   <p>Phone : <span> <%= @user.phone %></span></p>
+                </div>  
               </div>
-              
+            </div>
+          
             </div>
         </div>
-
-

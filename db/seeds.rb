@@ -7,10 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-5.times do
-    Users.create({
-        firstname: Faker::Name.name,
-        address: Faker::Internet.email,
-        phone: Faker::PhoneNumber.phone_number
-    })
-end
+# 5.times do
+#     Users.create({
+#         firstname: Faker::Name.name,
+#         address: Faker::Internet.email,
+#         phone: Faker::PhoneNumber.phone_number
+#     })
+# end
